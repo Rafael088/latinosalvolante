@@ -1,11 +1,14 @@
 
+import ButtonContact from "@/components/ButtonContact";
 import "@/styles/home.css"
 export default function Home() {
   return (
     <main>
      <div className="home">
+            <ButtonContact/>
             <section className="header">
-            <div className="left">
+            <div className="left"
+            >
                 <h1>CONSIGUE TU LICENCIA DE MANERA RAPIDA Y SEGURA</h1>
                 <p>
                 Aumenta tus <b>OPORTUNIDADES LABORALES</b> en los Estados Unidos y conduce las vías con TRANQUILIDAD con estos sencillos pasos:
@@ -16,9 +19,9 @@ export default function Home() {
                   <li>Obtener póliza de seguro para tu auto</li>
                   <li>Tranquilidad y confianza para el transporte</li>
                 </ul>
-                <button type="button">
+                <a>
                   Obtener Licencia
-                </button>
+                </a>
                 <p>En menos de 24 horas tendrás tu tramite listo y lo mejor es que:</p>
                 <b>¡NO REALIZAS EL PAGO HASTA QUE SU LICENCIA ESTE APROBADA!</b>
             </div>
@@ -60,19 +63,26 @@ export default function Home() {
               </div>
               <h2>¿QUIERES OBTENER TU LICENCIA?</h2>
               
-              <button type="button">
+              <a>
               ¡LA QUIERO!
-                </button>
+                </a>
             </section>
             <section className="contact">
               <h2>¿POR QUÉ ELEGIRNOS?</h2>
               <div className="cont-body">
                 <div className="left">
                   <b>Somos Latinos al volante</b>
+                  <p>Más que una empresa, ¡somos tu camino hacia nuevas experiencias viajeras! Conquista la carretera con nosotros y descubre la verdadera libertad en cada kilómetro. 🌟</p>
                 </div>
                 <div className="right">
 
                 </div>
+
+              </div>
+            </section>
+            <section className="footer">
+              <h2>Siguenos en nuestras redes sociales</h2>
+              <div>
 
               </div>
             </section>
